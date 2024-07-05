@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 
-import { Navigation } from 'swiper/modules';
+import { Navigation, Autoplay } from 'swiper/modules';
 
 const StudyInSlider = () => {
     const image = [
@@ -40,10 +40,25 @@ const StudyInSlider = () => {
                 centeredSlides={true}
                 spaceBetween={20}
                 // grabCursor={true}
-                navigation={true}
-                modules={[Navigation]}
+                autoHeight={true}
+                speed={2000}
+                autoplay={{
+                    delay: "3000"
+                }}
+                modules={[Autoplay, Navigation]}
                 loop
+                breakpoints={{
 
+                    768: {
+                        slidesPerView: "2",
+                        navigation: true,
+                    },
+                    0: {
+                        slidesPerView: "1.25",
+                        navigation: false,
+
+                    }
+                }}
 
             >
 

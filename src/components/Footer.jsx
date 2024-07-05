@@ -14,13 +14,13 @@ const Footer = () => {
                     <Box size={60} strokeWidth={1} color='white' />
                 </div>
 
-                <div className=" grid md:grid-cols-2">
+                <div className=" grid md:grid-cols-2 py-4 gap-2">
                     <div className="grid items-center">
                         <h2 className='md:text-3xl sm:text-2xl text-xl text-white '>Get in touch! Email updates?</h2>
                     </div>
                     <div className="flex items-center relative">
-                        <input className='w-full  border  border-r-0 sm:py-[14px] rounded-[5px] focus:outline-none px-3 ' type="text" name="" id="" placeholder='Your Email' />
-                        <button className='border sm:py-[10px]   text-white  px-[10px] rounded-[5px] absolute top-1/2 right-[1%] -translate-y-1/2 bg-primary'>Subscribe</button>
+                        <input className='w-full  border  border-r-0 md:py-[13px] rounded-[5px] focus:outline-none md:px-3 sm:py-[11px] sm:px[10px] py-[9px] px-2' type="text" name="" id="" placeholder='Your Email' />
+                        <button className='border md:py-[10px] sm:py-[8px] sm:px[8px] py-[6px] px-[6px]  text-white  md:px-[10px] rounded-[5px] absolute top-1/2 right-[1%] -translate-y-1/2 bg-primary'>Subscribe</button>
                     </div>
                 </div>
             </div>

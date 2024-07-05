@@ -45,8 +45,8 @@ const Sidebar = () => {
         },
     ]
     return (
-        <div>
-            <div className="py-10 top-0 sticky px-4 ">
+        <div className=''>
+            <div className="py-10 top-0 sticky   ">
                 <div className="mb-5">
                     <input type="search" placeholder='Search for blogs...' className=' border-2 p-2 w-full outline-none focus:border-primary focus:border-2 transition-all duration-300  text-black rounded-[5px] bg-gray-200 ' />
                 </div>

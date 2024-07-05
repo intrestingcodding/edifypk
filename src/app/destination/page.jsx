@@ -1,4 +1,5 @@
 import Banner_common from '@/components/Banner_common'
+import { BriefcaseBusiness, GraduationCap, Menu, University } from 'lucide-react'
 import React from 'react'
 
 const page = () => {
@@ -74,7 +75,7 @@ const page = () => {
                             <p className='para text-center'>We have in-depth knowledge of the complex immigration systems, regulations, and <br />
                                 processes of various countries.</p>
                         </div>
-                        <div className="grid grid-cols-8 gap-1 py-16">
+                        <div className="grid md:grid-cols-8 md:gap-1 gap-5 py-16">
 
                             <div className="flex flex-col items-center col-span-2 ">
                                 <div className="w-[100px] mb-2">
@@ -85,7 +86,7 @@ const page = () => {
                                 <p className='para text-center'>Edify Group helps you navigate the vast landscape of courses, helping you identify courses aligned with your academic interests, ensuring a purposeful and fulfilling educational journey.
                                 </p>
                             </div>
-                            <div className="">
+                            <div className="md:block hidden">
                                 <img src="https://edify.pk/_next/image?url=%2Fimages%2Fdestinations%2Fplane.png&w=640&q=75" alt="" className='w-full' />
                             </div>
                             <div className="flex flex-col items-center col-span-2">
@@ -97,7 +98,7 @@ const page = () => {
                                 <p className='para text-center'>Edify Group helps you navigate the vast landscape of courses, helping you identify courses aligned with your academic interests, ensuring a purposeful and fulfilling educational journey.
                                 </p>
                             </div>
-                            <div className="">
+                            <div className="md:block hidden">
                                 <img src="https://edify.pk/_next/image?url=%2Fimages%2Fdestinations%2Fplane.png&w=640&q=75" alt="" className='w-full' />
                             </div>
                             <div className="flex flex-col items-center col-span-2 ">
@@ -120,13 +121,35 @@ const page = () => {
                             <p className="para text-center">Australian universities consistently rank among the top 50 institutions worldwide across a wide range of study areas. As Study Abroad Consultants, we understand the importance of academic excellence and collaborate with prestigious Australian universities that offer outstanding educational programs, research opportunities, and world-class faculty. Australia is currently home to nearly 700,000 international students, making it a highly sought-after destination for education. As Study Abroad Consultants, we recognize the numerous advantages that Australia offers to students seeking quality education and global opportunities.</p>
                         </div>
 
-                        <div className="">
-                            <div className="">
+                        <div className="grid grid-cols-4 gap-2 items-center py-5 mb-3 border-b border-gray-400 ">
 
+                            <div className=" flex items-center justify-center flex-col hover:peer-checked/draft:text-sky-500">
+                                <div className="">
+                                    <GraduationCap size={44} strokeWidth={1} />
+                                </div>
+                                <p>Why Study in Australia</p>
                             </div>
-                            <div className=""></div>
-                            <div className=""></div>
-                            <div className=""></div>
+
+                            <div className=" flex items-center justify-center flex-col">
+                                <div className="">
+                                    <University size={44} strokeWidth={1} />
+                                </div>
+                                <p>Addmission Requirements</p>
+                            </div>
+
+                            <div className=" flex items-center justify-center flex-col">
+                                <div className="">
+                                    <BriefcaseBusiness size={44} strokeWidth={1} />
+                                </div>
+                                <p>Top Ranking Universities</p>
+                            </div>
+
+                            <div className=" flex items-center justify-center flex-col">
+                                <div className="">
+                                    <Menu size={44} strokeWidth={1} />
+                                </div>
+                                <p>Post Student Work</p>
+                            </div>
                         </div>
                     </div>
                 </div>
