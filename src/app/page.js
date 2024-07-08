@@ -21,7 +21,7 @@ const About = () => {
           alt=""
           className="w-full h-full rounded-2xl"
         />
-        <div className="grid gap-10 border md:gap-5 ">
+        <div className="grid gap-10  md:gap-5 ">
           <div className="">
             <h3 className="text-lg font-semibold mb-3 sm:mb-5 md:text-3xl sm:text-2xl">
               Why Choose Edify Group of Companies as study abroad Pakistan
