@@ -33,7 +33,7 @@ const Quetions = () => {
             {
                 question.map((v, i) => {
                     return (
-                        <section className=" ">
+                        <section key={i} className=" ">
                             <div className=" border">
                                 <div className="flex gap-3 items-center">
                                     <div onClick={() => setShowContent(showContent == i ? null : i)} className={`${showContent == i ? "rotate-45" : "rotate-0"} s  text-primary h-9 w-9  rounded-full bg-gray-300 transition-all duration-300 grid justify-center items-center`}> <Plus size={22} /> </div>
