@@ -111,7 +111,7 @@ const PartnerSlider = () => {
                 singleSlide.map((v, i) => {
                     return (
                         <SwiperSlide>
-                            <div className="">
+                            <div key={i} className="">
                                 <img src={v.img} alt="" className='py-6' />
                                 <img src={v.imgS} alt="" />
                             </div>
