@@ -1,89 +1,128 @@
 "use client"
-import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
 import { Autoplay } from "swiper/modules"
+// Import Swiper styles
+import 'swiper/css';
 
 const PartnerSlider = () => {
-
-    const partnersImages = [
+    const singleSlide = [
         {
-            image: "https://edify.pk/_next/image?url=%2Fusa%2F13p.webp&w=640&q=75"
+            img: "https://edifyelite.com.pk/images/uni-logos/3.png",
+            imgS: "https://edifyelite.com.pk/images/uni-logos/49.png"
         },
         {
-            image: "https://edify.pk/_next/image?url=%2Fusa%2F13p.webp&w=640&q=75"
+            img: "https://edifyelite.com.pk/images/uni-logos/3.png",
+            imgS: "https://edifyelite.com.pk/images/uni-logos/49.png"
         },
         {
-            image: "https://edify.pk/_next/image?url=%2Fusa%2F13p.webp&w=640&q=75"
+            img: "https://edifyelite.com.pk/images/uni-logos/3.png",
+            imgS: "https://edifyelite.com.pk/images/uni-logos/49.png"
         },
         {
-            image: "https://edify.pk/_next/image?url=%2Fusa%2F13p.webp&w=640&q=75"
+            img: "https://edifyelite.com.pk/images/uni-logos/3.png",
+            imgS: "https://edifyelite.com.pk/images/uni-logos/49.png"
         },
         {
-            image: "https://edify.pk/_next/image?url=%2Fusa%2F13p.webp&w=640&q=75"
+            img: "https://edifyelite.com.pk/images/uni-logos/3.png",
+            imgS: "https://edifyelite.com.pk/images/uni-logos/49.png"
         },
         {
-            image: "https://edify.pk/_next/image?url=%2Fusa%2F13p.webp&w=640&q=75"
+            img: "https://edifyelite.com.pk/images/uni-logos/3.png",
+            imgS: "https://edifyelite.com.pk/images/uni-logos/49.png"
         },
         {
-            image: "https://edify.pk/_next/image?url=%2Fusa%2F13p.webp&w=640&q=75"
+            img: "https://edifyelite.com.pk/images/uni-logos/3.png",
+            imgS: "https://edifyelite.com.pk/images/uni-logos/49.png"
         },
         {
-            image: "https://edify.pk/_next/image?url=%2Fusa%2F13p.webp&w=640&q=75"
+            img: "https://edifyelite.com.pk/images/uni-logos/3.png",
+            imgS: "https://edifyelite.com.pk/images/uni-logos/49.png"
         },
         {
-            image: "https://edify.pk/_next/image?url=%2Fusa%2F13p.webp&w=640&q=75"
+            img: "https://edifyelite.com.pk/images/uni-logos/3.png",
+            imgS: "https://edifyelite.com.pk/images/uni-logos/49.png"
         },
         {
-            image: "https://edify.pk/_next/image?url=%2Fusa%2F13p.webp&w=640&q=75"
+            img: "https://edifyelite.com.pk/images/uni-logos/3.png",
+            imgS: "https://edifyelite.com.pk/images/uni-logos/49.png"
         },
         {
-            image: "https://edify.pk/_next/image?url=%2Fusa%2F13p.webp&w=640&q=75"
+            img: "https://edifyelite.com.pk/images/uni-logos/3.png",
+            imgS: "https://edifyelite.com.pk/images/uni-logos/49.png"
         },
         {
-            image: "https://edify.pk/_next/image?url=%2Fusa%2F13p.webp&w=640&q=75"
+            img: "https://edifyelite.com.pk/images/uni-logos/3.png",
+            imgS: "https://edifyelite.com.pk/images/uni-logos/49.png"
         },
         {
-            image: "https://edify.pk/_next/image?url=%2Fusa%2F13p.webp&w=640&q=75"
+            img: "https://edifyelite.com.pk/images/uni-logos/3.png",
+            imgS: "https://edifyelite.com.pk/images/uni-logos/49.png"
         },
         {
-            image: "https://edify.pk/_next/image?url=%2Fusa%2F13p.webp&w=640&q=75"
+            img: "https://edifyelite.com.pk/images/uni-logos/3.png",
+            imgS: "https://edifyelite.com.pk/images/uni-logos/49.png"
+        },
+        {
+            img: "https://edifyelite.com.pk/images/uni-logos/3.png",
+            imgS: "https://edifyelite.com.pk/images/uni-logos/49.png"
         },
     ]
     return (
-        <>
+        <Swiper
+            spaceBetween={40}
+            slidesPerView={10}
+            loop
 
-            <Swiper
-                spaceBetween={20}
-                slidesPerView={7}
-                onSlideChange={() => console.log('slide change')}
-                onSwiper={(swiper) => console.log(swiper)}
-                loop
-                speed="1000"
-                autoplay={{
-                    delay: "500"
-                }}
-                modules={[Autoplay]}
-            >
-
-
-                {
-
-                    partnersImages.map((v, i) => {
-                        return (
-                            <SwiperSlide key={i}>
-                                <div className="shadow h-20 flex items-center justify-center border p-4  object-cover">
-                                    <img src={v.image} alt="" className='max-w-[100%]' />
-
-                                </div>
-                            </SwiperSlide>
-                        )
-                    })
-
+            breakpoints={{
+                900: {
+                    slidesPerView: "10"
+                },
+                768: {
+                    slidesPerView: "8"
+                },
+                600: {
+                    slidesPerView: "6"
+                },
+                500: {
+                    slidesPerView: "5"
+                },
+                400: {
+                    slidesPerView: "4"
+                },
+                0: {
+                    slidesPerView: "3"
                 }
-            </Swiper>
-        </>
-    )
-}
 
-export default PartnerSlider
+
+            }}
+
+            onSlideChange={() => console.log('slide change')}
+            onSwiper={(swiper) => console.log(swiper)}
+            speed="2000"
+            autoplay={{
+                delay: "1000"
+
+            }}
+
+            modules={[Autoplay]}
+
+        >
+            {
+                singleSlide.map((v, i) => {
+                    return (
+                        <SwiperSlide>
+                            <div className="">
+                                <img src={v.img} alt="" className='py-6' />
+                                <img src={v.imgS} alt="" />
+                            </div>
+                        </SwiperSlide>
+                    )
+                })
+
+            }
+
+        </Swiper>
+    );
+};
+
+export default PartnerSlider;

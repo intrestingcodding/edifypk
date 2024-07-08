@@ -16,7 +16,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={dm_sans.variable}>
+      <body className={dm_sans.className}>
         {children}
         <Footer />
       </body>

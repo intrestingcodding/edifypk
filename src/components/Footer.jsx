@@ -26,7 +26,7 @@ const Footer = () => {
             </div>
 
             <div className="pt-[100px] bg-gray-100 ">
-                <div className='grid sm:grid-cols-2 items-center   md:grid-cols-4 gap-5  max-w-6xl mx-auto px-4 py-5  '>
+                <div className='grid sm:grid-cols-2    md:grid-cols-4 gap-5  max-w-6xl mx-auto px-4 py-5  '>
                     <div className="">
                         <img src="https://edify.pk/_next/image?url=%2Fimages%2Flogo.png&w=256&q=75" alt="" className='w-[150px] mb-4' />
                         <p className='text-gray-500 mb-4'>Let us help you yield your true academic potential for foreign education. To configure and discover an apt international enrolment strategy, get in touch!</p>
