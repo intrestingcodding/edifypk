@@ -10,10 +10,13 @@ import PartnerSlider from "@/components/PartnerSlider";
 import Events from "@/components/Events";
 import StudyInSlider from "@/components/StudyInSlider";
 import Courses from "@/components/Courses";
+import Page from "@/components/Page";
+import Topbar from "@/components/Topbar";
 
 const About = () => {
   return (
     <section className="">
+      <Page />
       {/* About page */}
       <div className="grid md:grid-cols-2 gap-10 max-w-6xl mx-auto px-4 py-16 mb-10">
         <img

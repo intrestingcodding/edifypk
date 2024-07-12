@@ -53,31 +53,31 @@ const VideoSlider = () => {
 
                 <SwiperSlide>
                     <div className="rounded-2xl w-full">
-                        <img src="https://img.freepik.com/free-photo/expressive-young-lady-posing-studio_176474-72039.jpg?t=st=1716367759~exp=1716371359~hmac=2054b9b1678dfa949c28d035be8fc8919d32cfb4c67a9cab372f2122fa62e161&w=900" alt="" className='w-full rounded-2xl' />
+                        <iframe width="559" height="327" src="https://www.youtube.com/embed/F773Y3Nzoj0" title="Good news for students | Change in policies | New UK Prime minister | Study in UK" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
 
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="rounded-2xl w-full">
-                        <img src="https://img.freepik.com/free-photo/expressive-young-lady-posing-studio_176474-72039.jpg?t=st=1716367759~exp=1716371359~hmac=2054b9b1678dfa949c28d035be8fc8919d32cfb4c67a9cab372f2122fa62e161&w=900" alt="" className='w-full rounded-2xl' />
+                        <iframe width="559" height="327" src="https://www.youtube.com/embed/F773Y3Nzoj0" title="Good news for students | Change in policies | New UK Prime minister | Study in UK" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
 
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="rounded-2xl w-full">
-                        <img src="https://img.freepik.com/free-photo/expressive-young-lady-posing-studio_176474-72039.jpg?t=st=1716367759~exp=1716371359~hmac=2054b9b1678dfa949c28d035be8fc8919d32cfb4c67a9cab372f2122fa62e161&w=900" alt="" className='w-full rounded-2xl' />
+                        <iframe width="559" height="327" src="https://www.youtube.com/embed/F773Y3Nzoj0" title="Good news for students | Change in policies | New UK Prime minister | Study in UK" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
 
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="rounded-2xl w-full">
-                        <img src="https://img.freepik.com/free-photo/expressive-young-lady-posing-studio_176474-72039.jpg?t=st=1716367759~exp=1716371359~hmac=2054b9b1678dfa949c28d035be8fc8919d32cfb4c67a9cab372f2122fa62e161&w=900" alt="" className='w-full rounded-2xl' />
+                        <iframe width="559" height="327" src="https://www.youtube.com/embed/F773Y3Nzoj0" title="Good news for students | Change in policies | New UK Prime minister | Study in UK" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
 
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="rounded-2xl w-full">
-                        <img src="https://img.freepik.com/free-photo/expressive-young-lady-posing-studio_176474-72039.jpg?t=st=1716367759~exp=1716371359~hmac=2054b9b1678dfa949c28d035be8fc8919d32cfb4c67a9cab372f2122fa62e161&w=900" alt="" className='w-full rounded-2xl' />
+                        <iframe width="559" height="327" src="https://www.youtube.com/embed/F773Y3Nzoj0" title="Good news for students | Change in policies | New UK Prime minister | Study in UK" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
 
                 </SwiperSlide>

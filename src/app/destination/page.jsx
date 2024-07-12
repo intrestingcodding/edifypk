@@ -1,4 +1,5 @@
 import Banner_common from '@/components/Banner_common'
+import Destinations from '@/components/Destinations'
 import { BriefcaseBusiness, GraduationCap, Menu, University } from 'lucide-react'
 import React from 'react'
 
@@ -6,7 +7,6 @@ const page = () => {
     return (
         <div>
             <div className="">
-
                 <Banner_common heading="Study in Australia" path="Home > Destinations" />
                 <div className="max-w-6xl mx-auto px-4 ">
                     {/* Study in Australia */}
@@ -115,43 +115,7 @@ const page = () => {
                         </div>
                     </div>
                     {/* Why Australia */}
-                    <div className="">
-                        <div className="mb-5">
-                            <h1 className='heading text-center'>Why Study In Australia?</h1>
-                            <p className="para text-center">Australian universities consistently rank among the top 50 institutions worldwide across a wide range of study areas. As Study Abroad Consultants, we understand the importance of academic excellence and collaborate with prestigious Australian universities that offer outstanding educational programs, research opportunities, and world-class faculty. Australia is currently home to nearly 700,000 international students, making it a highly sought-after destination for education. As Study Abroad Consultants, we recognize the numerous advantages that Australia offers to students seeking quality education and global opportunities.</p>
-                        </div>
-
-                        <div className="grid grid-cols-4 gap-2 items-center py-5 mb-3 border-b border-gray-400 ">
-
-                            <div className=" flex items-center justify-center flex-col hover:peer-checked/draft:text-sky-500">
-                                <div className="">
-                                    <GraduationCap size={44} strokeWidth={1} />
-                                </div>
-                                <p>Why Study in Australia</p>
-                            </div>
-
-                            <div className=" flex items-center justify-center flex-col">
-                                <div className="">
-                                    <University size={44} strokeWidth={1} />
-                                </div>
-                                <p>Addmission Requirements</p>
-                            </div>
-
-                            <div className=" flex items-center justify-center flex-col">
-                                <div className="">
-                                    <BriefcaseBusiness size={44} strokeWidth={1} />
-                                </div>
-                                <p>Top Ranking Universities</p>
-                            </div>
-
-                            <div className=" flex items-center justify-center flex-col">
-                                <div className="">
-                                    <Menu size={44} strokeWidth={1} />
-                                </div>
-                                <p>Post Student Work</p>
-                            </div>
-                        </div>
-                    </div>
+                    <Destinations />
                 </div>
             </div>
         </div>
