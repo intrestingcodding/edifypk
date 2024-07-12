@@ -1,6 +1,6 @@
 import React from "react";
 
-const Page = () => {
+const Hero = () => {
   return (
     <div>
       <div className="w-full h-auto mx-auto ">
@@ -39,4 +39,4 @@ const Page = () => {
   );
 };
 
-export default Page;
+export default Hero;

@@ -7,22 +7,22 @@ const page = () => {
             <div className="">
                 <Banner_common heading="Team" path="Home > Team" />
                 <div className="flex gap-2 flex-wrap max-w-6xl mx-auto px-4 pb-12 pt-5">
-                    <div className="shadow-lg px-4 py-2 rounded cursor-pointer  border">CEO & Founder </div>
-                    <div className="shadow-lg px-4 py-2 rounded cursor-pointer  border">All</div>
-                    <div className="shadow-lg px-4 py-2 rounded cursor-pointer  border">Head</div>
-                    <div className="shadow-lg px-4 py-2 rounded cursor-pointer  border">Directors</div>
-                    <div className="shadow-lg px-4 py-2 rounded cursor-pointer  border">Branch Manager</div>
-                    <div className="shadow-lg px-4 py-2 rounded cursor-pointer  border">Counseller</div>
-                    <div className="shadow-lg px-4 py-2 rounded cursor-pointer  border">Marketing</div>
-                    <div className="shadow-lg px-4 py-2 rounded cursor-pointer  border">Processer</div>
-                    <div className="shadow-lg px-4 py-2 rounded cursor-pointer  border">English Proficiency</div>
-                    <div className="shadow-lg px-4 py-2 rounded cursor-pointer  border">Finace & Compliance</div>
-                    <div className="shadow-lg px-4 py-2 rounded cursor-pointer  border">Glogbal Alliance </div>
-                    <div className="shadow-lg px-4 py-2 rounded cursor-pointer  border">Front Desk Officer</div>
+                    <div className="shadow-lg px-4 py-2 rounded cursor-pointer md:text-base sm:text-sm text-xs  border">CEO & Founder </div>
+                    <div className="shadow-lg px-4 py-2 rounded cursor-pointer md:text-base sm:text-sm text-xs  border">All</div>
+                    <div className="shadow-lg px-4 py-2 rounded cursor-pointer md:text-base sm:text-sm text-xs  border">Head</div>
+                    <div className="shadow-lg px-4 py-2 rounded cursor-pointer md:text-base sm:text-sm text-xs  border">Directors</div>
+                    <div className="shadow-lg px-4 py-2 rounded cursor-pointer md:text-base sm:text-sm text-xs  border">Branch Manager</div>
+                    <div className="shadow-lg px-4 py-2 rounded cursor-pointer md:text-base sm:text-sm text-xs  border">Counseller</div>
+                    <div className="shadow-lg px-4 py-2 rounded cursor-pointer md:text-base sm:text-sm text-xs  border">Marketing</div>
+                    <div className="shadow-lg px-4 py-2 rounded cursor-pointer md:text-base sm:text-sm text-xs  border">Processer</div>
+                    <div className="shadow-lg px-4 py-2 rounded cursor-pointer md:text-base sm:text-sm text-xs  border">English Proficiency</div>
+                    <div className="shadow-lg px-4 py-2 rounded cursor-pointer md:text-base sm:text-sm text-xs  border">Finace & Compliance</div>
+                    <div className="shadow-lg px-4 py-2 rounded cursor-pointer md:text-base sm:text-sm text-xs  border">Glogbal Alliance </div>
+                    <div className="shadow-lg px-4 py-2 rounded cursor-pointer md:text-base sm:text-sm text-xs  border">Front Desk Officer</div>
                 </div>
 
                 <div className=" max-w-6xl mx-auto px-4 py-16">
-                    <div className="grid md:grid-cols-2 sm:grid-cols-2  ">
+                    <div className="grid lg:grid-cols-3 md:grid-cols-2">
 
                         <div className="grid gap-5 mb-20 justify-center">
                             <div className="relative  ">

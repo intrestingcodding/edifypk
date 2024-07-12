@@ -27,13 +27,13 @@ const Topbar = () => {
                 <X />
               </div>
 
-              <a className="text-[#1456a3] font-bold" href="">
+              <Link className="text-[#1456a3] font-bold" href="/">
                 Home
-              </a>
+              </Link>
               <Link href="/ged">GED</Link>
               <Link href="/about">About</Link>
-              <Link href="">Blogs</Link>
-              <Link href="">Courses</Link>
+              <Link href="/blogs">Blogs</Link>
+              <Link href="/courses">Courses</Link>
               <div className="inline-block group">
                 <div className="flex items-center cursor-pointer">
                   {" "}
@@ -41,37 +41,37 @@ const Topbar = () => {
                 </div>
                 <div className="md:absolute max-h-0 overflow-hidden group-hover:max-h-96  group-hover:pt-3 md:pt-3 md:opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 md:translate-y-4  group-hover:pointer-events-auto">
                   <div className="bg-gray-300 text-[#000000] flex flex-col text-sm min-w-[110px] px-4 py-4 gap-2 rounded-md">
-                    <Link className="inline-block" href="">
+                    <Link className="inline-block" href="/destination">
                       Australia
                     </Link>
-                    <Link className="inline-block" href="">
+                    <Link className="inline-block" href="destination">
                       UK
                     </Link>
-                    <Link className="inline-block" href="">
+                    <Link className="inline-block" href="destination">
                       USA
                     </Link>
-                    <Link className="inline-block" href="">
+                    <Link className="inline-block" href="destination">
                       Canada
                     </Link>
-                    <Link className="inline-block" href="">
+                    <Link className="inline-block" href="destination">
                       Germany
                     </Link>
-                    <Link className="inline-block" href="">
+                    <Link className="inline-block" href="destination">
                       Malaysia
                     </Link>
-                    <Link className="inline-block" href="">
+                    <Link className="inline-block" href="destination">
                       Dubai
                     </Link>
-                    <Link className="inline-block" href="">
+                    <Link className="inline-block" href="destination">
                       Kyrgyzstan
                     </Link>
-                    <Link className="inline-block" href="">
+                    <Link className="inline-block" href="destination">
                       France
                     </Link>
                   </div>
                 </div>
               </div>
-              <a href="">Team</a>
+              <Link href="/team">Team</Link>
               <div className="inline-block group">
                 <Link
                   className="flex items-center cursor-pointer"

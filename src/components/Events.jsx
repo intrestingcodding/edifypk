@@ -23,7 +23,7 @@ const Events = () => {
                             <p className='text-gray-500 text-sm mb-2'>08 may, 2024</p>
                         </div>
                         <div className="flex justify-between items-center">
-                            <p className='  hover:text-white hover:bg-primary cursor-default border transition-all duration-300 text-gray-500 p-2 text-xs rounded-2xl '>View Events</p>
+                            <p className='  hover:text-white hover:bg-primary cursor-default border transition-all duration-300 text-gray-500 p-2 text-xs rounded    '>View Events</p>
                             <div className="flex gap-1  border-gray p-2 items-center text-gray-500  rounded-[5px]">
                                 <Clock size={16} />
                                 <span className='text-xs'>
@@ -47,7 +47,7 @@ const Events = () => {
                             <p className='text-gray-500 text-sm mb-2'>08 may, 2024</p>
                         </div>
                         <div className="flex justify-between items-center">
-                            <p className='  hover:text-white hover:bg-primary cursor-default border transition-all duration-300 text-gray-500 p-2 text-xs rounded-2xl '>View Events</p>
+                            <p className='  hover:text-white hover:bg-primary cursor-default border transition-all duration-300 text-gray-500 p-2 text-xs rounded    '>View Events</p>
                             <div className="flex gap-1  border-gray p-2 items-center text-gray-500  rounded-[5px]">
                                 <Clock size={16} />
                                 <span className='text-xs'>
@@ -70,7 +70,7 @@ const Events = () => {
                             <p className='text-gray-500 text-sm mb-2'>08 may, 2024</p>
                         </div>
                         <div className="flex justify-between items-center">
-                            <p className='  hover:text-white hover:bg-primary cursor-default border transition-all duration-300 text-gray-500 p-2 text-xs rounded-2xl '>View Events</p>
+                            <p className='  hover:text-white hover:bg-primary cursor-default border transition-all duration-300 text-gray-500 p-2 text-xs rounded    '>View Events</p>
                             <div className="flex gap-1  border-gray p-2 items-center text-gray-500  rounded-[5px]">
                                 <Clock size={16} />
                                 <span className='text-xs'>

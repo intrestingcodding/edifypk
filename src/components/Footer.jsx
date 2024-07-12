@@ -5,26 +5,26 @@ const Footer = () => {
     return (
         <div className="relative  pt-8 ">
 
-
-            <div className="rounded-2xl border grid w-full md:py-16 shadow-lg py-5 px-4 items-center bg-primary max-w-6xl mx-auto translate-y-[80px] ">
-                <div className="absolute bottom-[10%] right-[55%] opacity-20 -rotate-45">
-                    <MailIcon size={60} color='white' strokeWidth={1} />
-                </div>
-                <div className="absolute top-[3%] right-[10%] opacity-25 -rotate-45">
-                    <Box size={60} strokeWidth={1} color='white' />
-                </div>
-
-                <div className=" grid md:grid-cols-2 py-4 gap-2">
-                    <div className="grid items-center">
-                        <h2 className='md:text-3xl sm:text-2xl text-xl text-white '>Get in touch! Email updates?</h2>
+            <div className="px-4">
+                <div className="rounded-2xl border grid w-full md:py-16 shadow-lg py-5 px-4 items-center bg-primary max-w-6xl mx-auto translate-y-[80px] ">
+                    <div className="absolute bottom-[10%] right-[55%] opacity-20 -rotate-45">
+                        <MailIcon size={60} color='white' strokeWidth={1} />
                     </div>
-                    <div className="flex items-center relative">
-                        <input className='w-full  border  border-r-0 md:py-[13px] rounded-[5px] focus:outline-none md:px-3 sm:py-[11px] sm:px[10px] py-[9px] px-2' type="text" name="" id="" placeholder='Your Email' />
-                        <button className='border md:py-[10px] sm:py-[8px] sm:px[8px] py-[6px] px-[6px]  text-white  md:px-[10px] rounded-[5px] absolute top-1/2 right-[1%] -translate-y-1/2 bg-primary'>Subscribe</button>
+                    <div className="absolute top-[3%] right-[10%] opacity-25 -rotate-45">
+                        <Box size={60} strokeWidth={1} color='white' />
+                    </div>
+
+                    <div className=" grid md:grid-cols-2 py-4 gap-2">
+                        <div className="grid items-center">
+                            <h2 className='md:text-3xl sm:text-2xl text-xl text-white '>Get in touch! Email updates?</h2>
+                        </div>
+                        <div className="flex items-center relative">
+                            <input className='w-full  border  border-r-0 md:py-[13px] rounded-[5px] focus:outline-none md:px-3 sm:py-[11px] sm:px[10px] py-[9px] px-2' type="text" name="" id="" placeholder='Your Email' />
+                            <button className='border md:py-[10px] sm:py-[8px] sm:px[8px] py-[6px] px-[6px]  text-white  md:px-[10px] rounded-[5px] absolute top-1/2 right-[3px] -translate-y-1/2 bg-primary'>Subscribe</button>
+                        </div>
                     </div>
                 </div>
             </div>
-
             <div className="pt-[100px] bg-gray-100 ">
                 <div className='grid sm:grid-cols-2    md:grid-cols-4 gap-5  max-w-6xl mx-auto px-4 py-5  '>
                     <div className="">

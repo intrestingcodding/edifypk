@@ -10,13 +10,16 @@ import PartnerSlider from "@/components/PartnerSlider";
 import Events from "@/components/Events";
 import StudyInSlider from "@/components/StudyInSlider";
 import Courses from "@/components/Courses";
-import Page from "@/components/Page";
-import Topbar from "@/components/Topbar";
+import Hero from "@/components/Hero";
+// import BgImage from "@/components/BgImage";
+import About from "@/app/about/page";
 
-const About = () => {
+const Home = () => {
   return (
     <section className="">
-      <Page />
+      <Hero />
+      <About />
+      {/* <BgImage /> */}
       {/* About page */}
       <div className="grid md:grid-cols-2 gap-10 max-w-6xl mx-auto px-4 py-16 mb-10">
         <img
@@ -37,7 +40,7 @@ const About = () => {
             </p>
           </div>
 
-          <div className="grid sm:grid-cols-5 gap-2 ">
+          <div className="grid sm:grid-cols-5 gap-2 md:mb-0 mb-10 ">
             <img
               className="col-span-1 w-[60px] p-[10px] mb-2  rounded-2xl bg-[#f8f8f8]"
               src="expertise.png"
@@ -211,4 +214,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Home;
