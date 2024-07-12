@@ -3,6 +3,7 @@ import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import { Clock10Icon, LucideEye, User2Icon } from 'lucide-react';
+import { motion } from "framer-motion"
 
 import { Autoplay } from "swiper/modules"
 

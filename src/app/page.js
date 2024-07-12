@@ -19,8 +19,7 @@ const Home = () => {
     <section className="">
       <Hero />
       <About />
-      {/* <BgImage /> */}
-      {/* About page */}
+      {/* Home page */}
       <div className="grid md:grid-cols-2 gap-10 max-w-6xl mx-auto px-4 py-16 mb-10">
         <img
           src="https://img.freepik.com/free-photo/smiley-pregnant-woman-holding-clipboard-pointing-up_23-2148765096.jpg?ga=GA1.1.633191682.1717133773&semt=ais_user"

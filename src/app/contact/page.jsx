@@ -7,7 +7,6 @@ const page = () => {
       <div className="grid md:grid-cols-3 gap-8">
         <div className="col-span-2  ">
           <h2 className="font-bold leading-9 text-3xl py-4 pb-1">
-            {" "}
             Faisalabad Office (Head Branch)
           </h2>
           <p className="text-[#49535b] font-medium leading-6 mt- mb-3 tracking-wider">
@@ -67,17 +66,17 @@ const page = () => {
             </p>
           </div>
           <div className=" flex  items-center ">
-             
-            </div>
-            <div className="flex py-2 gap-7">
+
+          </div>
+          <div className="flex py-2 gap-7">
             <Twitter strokeWidth={1} size={25} />
             {/* <Share2 strokeWidth={1} size={25} /> */}
             <Youtube strokeWidth={1} size={25} />
-            <Facebook strokeWidth={1}  size={25} />
-            <Linkedin strokeWidth={1}  size={25} />
+            <Facebook strokeWidth={1} size={25} />
+            <Linkedin strokeWidth={1} size={25} />
 
-            
-            </div>
+
+          </div>
         </div>
       </div>
     </div>

@@ -1,5 +1,4 @@
 import React from 'react'
-
 const Banner = (props) => {
     return (
         <div className='grid md:grid-cols-2 py-5 justify-center  items-center mb-5'>
