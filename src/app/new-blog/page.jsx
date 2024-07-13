@@ -84,7 +84,7 @@ const page = () => {
                     {
                         blogs.map((value, index) => {
                             return (
-                                <div className='border shadow-xl rounded-2xl overflow-hidden'>
+                                <div key={index} className='border shadow-xl rounded-2xl overflow-hidden'>
                                     <img src={value.image} alt="" />
                                     <div className="p-5 pb-8">
                                         <span className='text-gray-500 block mb-2'>{value.span}</span>
