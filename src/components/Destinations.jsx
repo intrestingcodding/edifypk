@@ -23,21 +23,21 @@ const Destinations = () => {
                     <p>Why Study in Australia</p>
                 </div>
 
-                <div onClick={setActive(2)} className=" flex items-center justify-center flex-col">
+                <div onClick={() => setActive(2)} className=" flex items-center justify-center flex-col">
                     <div className="">
                         <University size={44} strokeWidth={1} />
                     </div>
                     <p>Addmission Requirements</p>
                 </div>
 
-                <div onClick={setActive(3)} className=" flex items-center justify-center flex-col">
+                <div onClick={() => setActive(3)} className=" flex items-center justify-center flex-col">
                     <div className="">
                         <BriefcaseBusiness size={44} strokeWidth={1} />
                     </div>
                     <p>Top Ranking Universities</p>
                 </div>
 
-                <div onClick={setActive(4)} className=" flex items-center justify-center flex-col">
+                <div onClick={() => setActive(4)} className=" flex items-center justify-center flex-col">
                     <div className="">
                         <Menu size={44} strokeWidth={1} />
                     </div>
@@ -45,7 +45,7 @@ const Destinations = () => {
                 </div>
             </div>
 
-            {/* <div className="">
+            <div className="">
                 {
                     [1].map((v, i) => {
                         switch (active) {
@@ -77,7 +77,7 @@ const Destinations = () => {
                         }
                     })
                 }
-            </div> */}
+            </div>
 
 
         </div>
