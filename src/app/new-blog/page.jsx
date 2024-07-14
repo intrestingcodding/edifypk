@@ -41,9 +41,9 @@ const page = () => {
     ]
     return (
         <div>
-            <div className="grid md:grid-cols-3 max-w-6xl mx-auto px-4 py-16 gap-5">
+            <div className="grid lg:grid-cols-3 max-w-6xl mx-auto px-4 py-16 gap-5">
 
-                <div className="  md:col-span-2 border shadow-xl rounded-2xl overflow-hidden">
+                <div className="  lg:col-span-2 border shadow-xl rounded-2xl overflow-hidden">
                     <div className="mb-3">
                         <img src="https://img.freepik.com/free-photo/group-students-doing-project_23-2148166343.jpg?t=st=1719885490~exp=1719889090~hmac=5629b664766b603e39beecc122112b157e183c9efb84394939e31f0005835225&w=740" alt="" />
                     </div>
@@ -63,7 +63,7 @@ const page = () => {
                         {
                             sidebar.map((v, i) => {
                                 return (
-                                    <section key={i} className={` ${usePathname == v.how ? "bg-gray-100" : ""}  bg-gray-100 p-4 rounded-2xl`}>
+                                    <section key={i} className="hover:bg-gray-100 p-4 rounded-2xl"}>
                                         <span className=" text-primary font-medium text-sm">{v.how}</span>
                                         <p className=''>{v.dis}</p>
                                     </section>
@@ -80,7 +80,7 @@ const page = () => {
 
             <div className="">
 
-                <div className="grid grid-cols-3 gap-5 max-w-6xl mx-auto ">
+                <div className="grid md:grid-cols-2  lg:grid-cols-3 gap-5 max-w-6xl mx-auto ">
                     {
                         blogs.map((value, index) => {
                             return (
