@@ -6,7 +6,7 @@ const Footer = () => {
         <div className="relative  pt-8 ">
 
             <div className="px-4">
-                <div className="rounded-2xl border grid w-full md:py-16 shadow-lg py-5 px-4 items-center bg-primary max-w-6xl mx-auto translate-y-[80px] ">
+                <div className="rounded-2xl border grid w-full md:py-10 shadow-lg py-5 px-4 items-center bg-blue-600 max-w-6xl mx-auto translate-y-[80px] ">
                     <div className="absolute bottom-[10%] right-[55%] opacity-20 -rotate-45">
                         <MailIcon size={60} color='white' strokeWidth={1} />
                     </div>
@@ -20,7 +20,7 @@ const Footer = () => {
                         </div>
                         <div className="flex items-center relative">
                             <input className='w-full  border  border-r-0 md:py-[13px] rounded-[5px] focus:outline-none md:px-3 sm:py-[11px] sm:px[10px] py-[9px] px-2' type="text" name="" id="" placeholder='Your Email' />
-                            <button className='border md:py-[10px] sm:py-[8px] sm:px[8px] py-[6px] px-[6px]  text-white  md:px-[10px] rounded-[5px] absolute top-1/2 right-[3px] -translate-y-1/2 bg-primary'>Subscribe</button>
+                            <button className='border md:py-[10px] sm:py-[8px] sm:px[8px] py-[6px] px-[6px]  text-white  md:px-[10px] rounded-[5px] absolute top-1/2 right-[3px] -translate-y-1/2 bg-blue-600 '>Subscribe</button>
                         </div>
                     </div>
                 </div>
@@ -51,29 +51,29 @@ const Footer = () => {
                     <div className="md:pl-14">
                         <span className='text-xl mb-2 block'>Links</span>
                         <ul className='grid gap-2'>
-                            <li className='text-gray-500 text-sm hover:text-primary cursor-pointer'>Blogs</li>
-                            <li className='text-gray-500 text-sm hover:text-primary cursor-pointer'>Teams</li>
-                            <li className='text-gray-500 text-sm hover:text-primary cursor-pointer'>Career</li>
-                            <li className='text-gray-500 text-sm hover:text-primary cursor-pointer'>Course</li>
-                            <li className='text-gray-500 text-sm hover:text-primary cursor-pointer'>About us</li>
+                            <li className='text-gray-500 text-sm hover:text-blue-600 cursor-pointer'>Blogs</li>
+                            <li className='text-gray-500 text-sm hover:text-blue-600 cursor-pointer'>Teams</li>
+                            <li className='text-gray-500 text-sm hover:text-blue-600 cursor-pointer'>Career</li>
+                            <li className='text-gray-500 text-sm hover:text-blue-600 cursor-pointer'>Course</li>
+                            <li className='text-gray-500 text-sm hover:text-blue-600 cursor-pointer'>About us</li>
                         </ul>
                     </div>
                     <div className="md:pl-14">
                         <span className='text-xl mb-2 block'>Explore</span>
                         <ul className='grid gap-2'>
-                            <li className='text-gray-500 text-sm hover:text-primary cursor-pointer'>Service</li>
-                            <li className='text-gray-500 text-sm hover:text-primary cursor-pointer'>Partners</li>
-                            <li className='text-gray-500 text-sm hover:text-primary cursor-pointer'>Apply Now</li>
-                            <li className='text-gray-500 text-sm hover:text-primary cursor-pointer'>Contact us</li>
-                            <li className='text-gray-500 text-sm hover:text-primary cursor-pointer'>News & Events</li>
+                            <li className='text-gray-500 text-sm hover:text-blue-600 cursor-pointer'>Service</li>
+                            <li className='text-gray-500 text-sm hover:text-blue-600 cursor-pointer'>Partners</li>
+                            <li className='text-gray-500 text-sm hover:text-blue-600 cursor-pointer'>Apply Now</li>
+                            <li className='text-gray-500 text-sm hover:text-blue-600 cursor-pointer'>Contact us</li>
+                            <li className='text-gray-500 text-sm hover:text-blue-600 cursor-pointer'>News & Events</li>
                         </ul>
                     </div>
                     <div className="">
                         <span className='text-xl mb-2 block'>Information</span>
                         <ul className='grid gap-2'>
-                            <li className='flex gap-2 items-center text-gray-500 text-sm hover:text-primary cursor-pointer'><PhoneCall className='hover:text-primary' size={14} color='gray' />041 8501893</li>
-                            <li className='flex gap-2 items-center text-gray-500 text-sm hover:text-primary cursor-pointer'><Mail className='hover:text-primary' size={14} color='gray' /> info@edify.pk</li>
-                            <li className='flex gap-2 items-center text-gray-500 text-sm hover:text-primary cursor-pointer'><MapPinned className='hover:text-primary' size={22} color='gray' />Edify Building, 3rd Floor, Madina Town Faisalabad</li>
+                            <li className='flex gap-2 items-center text-gray-500 text-sm hover:text-blue-600 cursor-pointer'><PhoneCall className='hover:text-blue-600' size={14} color='gray' />041 8501893</li>
+                            <li className='flex gap-2 items-center text-gray-500 text-sm hover:text-blue-600 cursor-pointer'><Mail className='hover:text-blue-600' size={14} color='gray' /> info@edify.pk</li>
+                            <li className='flex gap-2 items-center text-gray-500 text-sm hover:text-blue-600 cursor-pointer'><MapPinned className='hover:text-blue-600' size={22} color='gray' />Edify Building, 3rd Floor, Madina Town Faisalabad</li>
 
                         </ul>
                     </div>

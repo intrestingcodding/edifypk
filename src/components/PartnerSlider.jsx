@@ -1,127 +1,149 @@
 "use client"
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay } from "swiper/modules"
-// Import Swiper styles
-import 'swiper/css';
-
+import { motion } from "framer-motion";
 const PartnerSlider = () => {
     const singleSlide = [
         {
-            img: "https://edifyelite.com.pk/images/uni-logos/3.png",
-            imgS: "https://edifyelite.com.pk/images/uni-logos/49.png"
+            imgS: "/images/uni-logos/5.png"
         },
         {
-            img: "https://edifyelite.com.pk/images/uni-logos/3.png",
-            imgS: "https://edifyelite.com.pk/images/uni-logos/49.png"
+            imgS: "/images/uni-logos/6.png"
         },
         {
-            img: "https://edifyelite.com.pk/images/uni-logos/3.png",
-            imgS: "https://edifyelite.com.pk/images/uni-logos/49.png"
+            imgS: "/images/uni-logos/7.png"
         },
         {
-            img: "https://edifyelite.com.pk/images/uni-logos/3.png",
-            imgS: "https://edifyelite.com.pk/images/uni-logos/49.png"
+            imgS: "/images/uni-logos/8.png"
         },
         {
-            img: "https://edifyelite.com.pk/images/uni-logos/3.png",
-            imgS: "https://edifyelite.com.pk/images/uni-logos/49.png"
+            imgS: "/images/uni-logos/9.png"
         },
         {
-            img: "https://edifyelite.com.pk/images/uni-logos/3.png",
-            imgS: "https://edifyelite.com.pk/images/uni-logos/49.png"
+            imgS: "/images/uni-logos/10.png"
         },
         {
-            img: "https://edifyelite.com.pk/images/uni-logos/3.png",
-            imgS: "https://edifyelite.com.pk/images/uni-logos/49.png"
+            imgS: "/images/uni-logos/11.png"
         },
         {
-            img: "https://edifyelite.com.pk/images/uni-logos/3.png",
-            imgS: "https://edifyelite.com.pk/images/uni-logos/49.png"
+            imgS: "/images/uni-logos/12.png"
         },
         {
-            img: "https://edifyelite.com.pk/images/uni-logos/3.png",
-            imgS: "https://edifyelite.com.pk/images/uni-logos/49.png"
+            imgS: "/images/uni-logos/13.png"
         },
         {
-            img: "https://edifyelite.com.pk/images/uni-logos/3.png",
-            imgS: "https://edifyelite.com.pk/images/uni-logos/49.png"
+            imgS: "/images/uni-logos/14.png"
         },
         {
-            img: "https://edifyelite.com.pk/images/uni-logos/3.png",
-            imgS: "https://edifyelite.com.pk/images/uni-logos/49.png"
+            imgS: "/images/uni-logos/15.png"
         },
         {
-            img: "https://edifyelite.com.pk/images/uni-logos/3.png",
-            imgS: "https://edifyelite.com.pk/images/uni-logos/49.png"
+            imgS: "/images/uni-logos/16.png"
         },
         {
-            img: "https://edifyelite.com.pk/images/uni-logos/3.png",
-            imgS: "https://edifyelite.com.pk/images/uni-logos/49.png"
+            imgS: "/images/uni-logos/17.png"
         },
         {
-            img: "https://edifyelite.com.pk/images/uni-logos/3.png",
-            imgS: "https://edifyelite.com.pk/images/uni-logos/49.png"
+            imgS: "/images/uni-logos/18.png"
         },
         {
-            img: "https://edifyelite.com.pk/images/uni-logos/3.png",
-            imgS: "https://edifyelite.com.pk/images/uni-logos/49.png"
+            imgS: "/images/uni-logos/19.png"
+        },
+        {
+            imgS: "/images/uni-logos/20.png"
+        },
+        {
+            imgS: "/images/uni-logos/21.png"
+        },
+
+        {
+            imgS: "/images/uni-logos/22.png"
+        },
+        {
+            imgS: "/images/uni-logos/25.png"
+        },
+        {
+            imgS: "/images/uni-logos/26.png"
+        },
+        {
+            imgS: "/images/uni-logos/27.png"
+        },
+        {
+            imgS: "/images/uni-logos/28.png"
+        },
+        {
+            imgS: "/images/uni-logos/32.png"
+        },
+        {
+            imgS: "/images/uni-logos/37.png"
+        },
+        {
+            imgS: "/images/uni-logos/39.png"
+        },
+        {
+            imgS: "/images/uni-logos/40.png"
+        },
+        {
+            imgS: "/images/uni-logos/41.png"
+        },
+        {
+            imgS: "/images/uni-logos/42.png"
+        },
+        {
+            imgS: "/images/uni-logos/44.png"
+        },
+        {
+            imgS: "/images/uni-logos/45.png"
+        },
+        {
+            imgS: "/images/uni-logos/46.png"
+        },
+        {
+            imgS: "/images/uni-logos/48.png"
         },
     ]
-    return (
-        <Swiper
-            spaceBetween={40}
-            slidesPerView={10}
-            loop
 
-            breakpoints={{
-                900: {
-                    slidesPerView: "10"
-                },
-                768: {
-                    slidesPerView: "8"
-                },
-                600: {
-                    slidesPerView: "6"
-                },
-                500: {
-                    slidesPerView: "5"
-                },
-                400: {
-                    slidesPerView: "4"
-                },
-                0: {
-                    slidesPerView: "3"
+    return (
+
+
+        <div className="  px-4 overflow-hidden flex ">
+            <motion.div
+                initial={{ translateX: 0 }}
+                animate={{ translateX: "-100%" }}
+                transition={{ duration: 80, ease: "linear", repeat: Infinity, repeatType: "loop" }}
+                className=" flex  gap-4 flex-none  ">
+                {
+                    singleSlide.map((v, i) => {
+                        return (
+                            <section key={i} className="p-4 ">
+                                <img src={v.imgS} alt=""
+                                    className="flex-none w-24 " />
+                            </section>
+                        )
+                    })
+
                 }
 
+            </motion.div>
+            <motion.div
+                initial={{ translateX: 0 }}
+                animate={{ translateX: "-100%" }}
+                transition={{ duration: 80, ease: "linear", repeat: Infinity, repeatType: "loop" }}
+                className=" flex  gap-4 flex-none  ">
+                {
+                    singleSlide.map((v, i) => {
+                        return (
+                            <section key={i} className=" p-4">
+                                <img src={v.imgS} alt=""
+                                    className="flex-none w-24 " />
+                            </section>
+                        )
+                    })
 
-            }}
+                }
 
-            onSlideChange={() => console.log('slide change')}
-            onSwiper={(swiper) => console.log(swiper)}
-            speed="2000"
-            autoplay={{
-                delay: "1000"
+            </motion.div>
 
-            }}
+        </div>
 
-            modules={[Autoplay]}
-
-        >
-            {
-                singleSlide.map((v, i) => {
-                    return (
-                        <SwiperSlide key={i}>
-                            <div className="">
-                                <img src={v.img} alt="" className='py-6' />
-                                <img src={v.imgS} alt="" />
-                            </div>
-                        </SwiperSlide>
-                    )
-                })
-
-            }
-
-        </Swiper>
     );
 };
 

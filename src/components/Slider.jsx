@@ -41,7 +41,7 @@ const Slider = () => {
                     <div className=" bg-gradient-to-t from-[#2b2727] bg-opacity-30 absolute  w-full bottom-0 flex items-end left-0 px-4 text-white py-5 rounded-2xl  pt-28">
                         <div className="">
                             <div className="sm:flex hidden mb-2">
-                                <p className='py-[5px]  sm:text-sm text-xs text-slate-300   hover:border-primary cursor-pointer transition-all duration-300 '>Student Life</p>
+                                <p className='py-[5px]  sm:text-sm text-xs text-slate-300   hover:border-blue-600 cursor-pointer transition-all duration-300 '>Student Life</p>
                             </div>
                             <h3 className='md:text-lg sm:text-base text-sm mb-2'>Unlocking the best London for Student form Pakistan</h3>
                             <div className="flex gap-5 ">
@@ -65,7 +65,7 @@ const Slider = () => {
                     <div className=" bg-gradient-to-t from-[#2b2727] bg-opacity-30 absolute  w-full bottom-0 flex items-end left-0 px-4 text-white py-5 rounded-2xl  pt-28">
                         <div className="">
                             <div className="sm:flex hidden mb-2">
-                                <p className='py-[5px]  sm:text-sm text-xs text-slate-30ye hover:border-primary cursor-pointer transition-all duration-300 '>Student Life</p>
+                                <p className='py-[5px]  sm:text-sm text-xs text-slate-30ye hover:border-blue-600 cursor-pointer transition-all duration-300 '>Student Life</p>
                             </div>
                             <h3 className='md:text-lg sm:text-base text-sm mb-2'>Unlocking the best London for Student form Pakistan</h3>
                             <div className="flex gap-5 ">
@@ -89,7 +89,7 @@ const Slider = () => {
                     <div className=" bg-gradient-to-t from-[#2b2727] bg-opacity-30 absolute  w-full bottom-0 flex items-end left-0 px-4 text-white py-5 rounded-2xl  pt-28">
                         <div className="">
                             <div className="sm:flex hidden mb-2">
-                                <p className='py-[5px]  sm:text-sm text-xs text-slate-300   hover:border-primary cursor-pointer transition-all duration-300 '>Student Life</p>
+                                <p className='py-[5px]  sm:text-sm text-xs text-slate-300   hover:border-blue-600 cursor-pointer transition-all duration-300 '>Student Life</p>
                             </div>
                             <h3 className='md:text-lg sm:text-base text-sm mb-2'>Unlocking the best London for Student form Pakistan</h3>
                             <div className="flex gap-5 ">

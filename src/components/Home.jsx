@@ -17,13 +17,13 @@ import About from "@/app/about/page";
 const Home = () => {
   return (
     <section className="">
-      <Hero />
-      <About />
+      {/* <Hero /> */}
+      {/* <About /> */}
       {/* Home page */}
       <div className="grid md:grid-cols-2 gap-10 max-w-6xl mx-auto px-4 py-16 mb-10">
         <img
           src="https://img.freepik.com/free-photo/smiley-pregnant-woman-holding-clipboard-pointing-up_23-2148765096.jpg?ga=GA1.1.633191682.1717133773&semt=ais_user"
-          alt=""
+          alt="image coming soon"
           className="w-full h-full rounded-2xl"
         />
         <div className="grid gap-10  md:gap-5 ">
@@ -162,7 +162,7 @@ const Home = () => {
             Letest from Youtube
           </h3>
         </div>
-        <VideoSlider />
+        {/* <VideoSlider /> */}
       </div>
       {/* how to start */}
       <div className="bg-gray-100 ">

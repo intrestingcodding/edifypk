@@ -36,7 +36,7 @@ const Quetions = () => {
                         <section key={i} className=" ">
                             <div className=" ">
                                 <div className="flex gap-3 items-center">
-                                    <div onClick={() => setShowContent(showContent == i ? null : i)} className={`${showContent == i ? "rotate-45" : "rotate-0"} s  text-primary p-2  rounded-full bg-gray-300 transition-all duration-300 grid justify-center items-center`}> <Plus size={22} /> </div>
+                                    <div onClick={() => setShowContent(showContent == i ? null : i)} className={`${showContent == i ? "rotate-45" : "rotate-0"} s  text-blue-600 p-2  rounded-full bg-gray-300 transition-all duration-300 grid justify-center items-center`}> <Plus size={22} /> </div>
                                     <div className=" text-base font-medium select-nones ">{v.question}   </div>
                                 </div>
                             </div>
